@@ -1,0 +1,28 @@
+/****** PLACE YOUR CUSTOM STYLES HERE ******/
+
+@media all and (max-width: 576px) {
+    h1.small {
+        font-size: 15px;
+        line-height: 16px;
+        font-weight: bolder;
+        letter-spacing: 10px;
+    }
+    section.small {
+        padding-top: 30px;
+    }
+    .cover.fullscreen {
+        height: auto !important;
+    }
+  }
+
+@media (max-width: 767px){
+    .cover.fullscreen {
+    height: auto !important;
+  }
+}
+
+@media all and (max-width: 1024px) {
+.fs-vid-background {
+    display: block;
+}
+}
